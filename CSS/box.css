@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  background-color: #8ecae6;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 5px;
+  text-align: center;
+}
+#one {
+  background-color: #8ecae6;
+  box-sizing: border-box;
+  border: 3px #219ebc solid;
+  padding: 5px;
+  margin: 5px;
+}
+#two {
+  background-color: #8ecae6;
+  box-sizing: border-box;
+  border: 3px #219ebc solid;
+  border-left: 8px #ffb703 solid;
+  padding: 5px;
+  margin: 5px;
+}
+#three {
+  background-color: #8ecae6;
+  box-sizing: border-box;
+  border: 3px #219ebc solid;
+  border-radius: 10%;
+  padding: 5px;
+  margin: 5px;
+}

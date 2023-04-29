@@ -1,0 +1,35 @@
+section {
+  background-color: #6d6875;
+  width: 500px;
+  height: 500px;
+  margin: 25px;
+}
+div {
+  background-color: #b5838d;
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+article {
+  font-size: 20px;
+}
+#rems h2 {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+/* 2em wynosi 40px, ponieważ 20px*2, h2 bierze em z article, bo jest w nim, w html. */
+/* Natomiast margin 0.5em, bierze się z font-size: 2em. */
+#rems button {
+  font-size: 0.5rem;
+  padding: 1rem;
+  background-color: rgb(86, 62, 172);
+  border-radius: 15%;
+  margin: 2rem;
+}
+#rems ul {
+  font-size: 1.5rem;
+}
